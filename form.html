@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link type="text/css" rel="stylesheet" href="form.css" />
+  <title> Form </title>
+</head>
+
+<body>
+    
+  <div class="bg-image"></div>
+
+  <div class="bg-text">
+  <form action="http://www.google.com">
+    
+      <h1>Contact Form:</h1>
+      <img src="2.jpg" />
+      <p>Username: </p>
+      <input type="text" name="username" placeholder="Enter username"/>
+      <br />
+      <p>Enter Password:</p>
+      <input type="password" name="password" placeholder="Enter Password"/>
+      <br />
+      <br />
+      
+      <p>Enter Comments:</p>
+      <textarea name="comments"> Enter comments here:</textarea>
+      <br />
+      <br />
+      
+      <p>Select options from Radio buttons:</p>
+      <input type="radio" name="subject" value="math" /> Math
+      <input type="radio" name="subject" value="chemistry" /> Chemistry
+      <input type="radio" name="subject" value="physics" /> Physics
+      <br />
+      <br />
+      
+      <p>Select currency from Checkboxes: </p>
+      <input type="checkbox" name="curr" value="USD" /> USD
+      <input type="checkbox" name="curr" value="AUD" /> AUD
+      <input type="checkbox" name="curr" value="PKR" /> PKR
+      <br />
+      <br />
+      
+      <p>Select options from Drop Down menu:</p>
+      <select name="type">
+        <option value="option1"> option1 </option>
+        <option value="option2"> option2 </option>
+        <option value="option3"> option3 </option>
+        <option value="option4"> option4 </option>
+      </select>
+      <br />
+      <br />
+      
+      <p>Select multiple options from Drop down menu:</p>
+      <select name="option" size="3" multiple="multiple">
+        <option value="AAA"> AAA</option>
+        <option value="BBB"> BBB</option>
+        <option value="CCC"> CCC</option>
+        <option value="DDD"> DDD</option>
+      </select>
+  </form>
+      <br />
+      <br />
+      <form action="http://www.google.com" method="post">
+        <p>Select file to be uploaded </p>
+        <input type="file" name="file-name" /> <br />
+        <input type="submit" value="Upload">
+      <br />
+      <br />
+      <p>Enter your email address: </p>
+      <input type="text" name="email">
+      <input type="submit" value="Subscribe">
+      <br />
+      <br />
+      <p>Gender:</p>
+      <input id="male" type="radio" value="m" name="gen">
+      <label for="male">Male</label>
+
+      <input id="female" type="radio" value="f" name="gen">
+      <label for="female">Female</label>
+      <br />
+      <br />
+      <p>Enter Email:</p>
+      <input type="email" name="email" />
+      <input type="submit" value="Submit" />
+      <br />
+      <br />
+      <p>Enter Date:</p>
+      <input type="date" name="date" />
+      <input type="submit" value="Submit" />
+      <br />
+      <br />
+      <p>Enter URL:</p>
+      <input type="url" name="url" />
+      <input type="submit" value="submit" />
+      <br />
+      <br />
+      <p>Enter Keywords to Search:</p>
+      <input type="search" name="search" />
+      <input type="submit" value="Google" /> 
+    </form>
+    </div>
+  </form>
+</body>
+
+</html>
